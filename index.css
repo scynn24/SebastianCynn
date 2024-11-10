@@ -1,0 +1,49 @@
+.icon{
+    color: #00796b;
+  }
+  
+  h2{
+    text-align: center;
+  }
+  
+  h3{
+    text-align: center;
+    color: #00897b;
+  }
+  
+  
+  body{
+    background-color: #f9f9f9;
+    font-family: "Roboto";
+  }
+  
+  img{
+    height: 30vh
+  }
+  
+  .img-circle {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .a{
+    text-align: center;
+  }
+  
+  a{
+    color: #00897b;
+    word-wrap: break-word;
+  }
+  
+  
+  .sub-head {
+      letter-spacing: 0.1em;
+      color: #00897b;
+      text-transform: uppercase;
+      font-weight: 300;
+      display: inline-block;
+      text-align: center;
+      font-size: 14px;
+  }

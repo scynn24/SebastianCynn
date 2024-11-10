@@ -1,0 +1,150 @@
+<!-- Time to make your own website with all that you have learned so far in the course. This starter file has all of the dependencies included that you have learned about, so feel free to use d3 and materialize! 
+
+Reference Websites: https://achaghani21.github.io and https://web.ma.utexas.edu/users/mdaniels/-->
+
+    <html>
+    <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="index.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <script src="index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script type="module">
+            import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+        </script>
+
+        <nav>
+            <div class="nav-wrapper" style="background-color: #00897b">
+            <!-- <div class="container">
+                <div class="brand-logo left">
+                    &emsp Sebastian Cynn
+                </div>
+            </div>-->
+            <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large right">    <i class="material-icons">menu</i> 
+            </a>
+            </div>
+        </nav>
+        
+        <!-- This creates the Side Navigation Bar-->
+        <ul id="slide-out" class="sidenav">
+            <li>
+            <a href="#!"><i class="material-icons">home</i>Home</a>
+            </li>
+            <li>
+            <a href="#!"><i class="material-icons">cloud</i>Blog</a>
+            </li>
+            <li>
+            <a href="#!"><i class="material-icons">work</i>Projects</a>
+            </li>
+            <li>
+            <a href="#!"><i class="material-icons">description</i>Resume</a>
+            </li>
+            <li>
+            <a href="#!"><i class="material-icons">contacts</i>Contact Me</a>
+            </li>
+        </ul>
+        
+        
+        
+        <!-- This creates the body of the home page!-->
+        <h2> 
+            Sebastian Cynn
+        </h2>
+        
+        <img class = "img-circle" src="https://media.licdn.com/dms/image/D4E03AQFER0-8c6sDmw/profile-displayphoto-shrink_200_200/0/1709502283524?e=2147483647&v=beta&t=Jryd_RRLyp86vFvgzV98HyTkljdA6PPBepA5kP6PYnE">
+        <br>
+        <br>
+        
+        <div class="container">
+            <div class="a">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+            Have a look at some of my projects.<br>
+            <!-- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+            For more, check out my academic & professional resume.<br>
+            </div>
+        </div>
+        <br><br>
+        <hr>
+        
+        
+        <div class="container">
+            <div class="main-head">
+            <h3>Contact me</h3>
+            </div>
+        
+            <div class="row">
+            <div class="col s8">
+                <p> Use this contact form to send me a message, a compliment, or both.  </p>
+        
+                <div class="row">
+                <div class="col s12">
+                    <div>
+                    <div id="sucessmessage"> </div>
+                    </div>
+                </div>
+                <form novalidate="novalidate" id="contact_form" method="post" action="contact.php">
+                    <div class="col s4">
+                    <input type="text" placeholder="Name" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="col s4">
+                    <input type="text" placeholder="Email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="col s4">
+                    <input type="text" placeholder="Subject" class="form-control" id="subject" name="subject">
+                    </div>
+                    <div class="col s12">
+                    <textarea placeholder="Message" rows="12" class="form-control" id="comment" name="comment"></textarea>
+                    </div>
+                    <div class="col s12">
+                    <button class="form-btn" type="submit">Submit</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="sub-head">Find Me Here</div>
+                
+                <div>
+                Sebastian Cynn<br>
+                Wadham College<br>
+                Park Lane, Oxford, OX1 3PN<br><br>
+                <div class="sub-head">
+                    Reach Me Here
+                </div>
+                <br>[placeholder] <br>
+                [placeholder] <br>
+        
+                <a href="mailto:sebastian.cynn@gmail.com">sebastian.cynn@gmail.com</a>
+                <a href="mailto:sebastian.cynn@wadham.ox.ac.uk">sebastian.cynn@wadham.ox.ac.uk</a>
+                </div>
+                <br><br>
+            </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <br><br><br>
+        <div class="row" style="background-color: #80cbc4">
+            <div class="container a">
+            <br>Copyright © 2024 Sebastian Cynn. <br>All Rights Reserved
+            </div>
+            <br><br><br>
+        </div>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+</html>
