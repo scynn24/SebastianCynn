@@ -33,6 +33,8 @@
   }
 
   .img-pdf {
+    width: 60vw;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
